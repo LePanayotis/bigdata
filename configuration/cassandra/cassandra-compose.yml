@@ -1,0 +1,15 @@
+services:
+  cass1:
+    image: cassandra:3.11.8  
+    container_name: cassandra
+    hostname: cassandra
+    ports:
+      - "127.0.0.1:9042:9042"
+      - "ip1:9042:9042"
+      - "ip1:7000:7000"
+    volumes:
+      - /path/to/cassandra/data:/var/lib/cassandra
+    environment:
+        CASSANDRA_SEEDS: "ip1,ip2,ip3"
+        CASSANDRA_BROADCAST_ADDRESS: "ip1"
+        CASSANDRA_CLUSTER_NAME: SolarSystem

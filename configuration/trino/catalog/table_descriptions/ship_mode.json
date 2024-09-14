@@ -1,0 +1,39 @@
+{
+    "tableName": "ship_mode",
+    "schemaName": "r",
+    "value": {
+        "dataFormat": "hash",
+        "fields": [
+            {
+                "name": "sm_ship_mode_sk",
+                "type": "INTEGER",
+                "mapping": "sm_ship_mode_sk"
+            },
+            {
+                "name": "sm_ship_mode_id",
+                "type": "VARCHAR(16)",
+                "mapping": "sm_ship_mode_id"
+            },
+            {
+                "name": "sm_type",
+                "type": "VARCHAR(30)",
+                "mapping": "sm_type"
+            },
+            {
+                "name": "sm_code",
+                "type": "VARCHAR(10)",
+                "mapping": "sm_code"
+            },
+            {
+                "name": "sm_carrier",
+                "type": "VARCHAR(20)",
+                "mapping": "sm_carrier"
+            },
+            {
+                "name": "sm_contract",
+                "type": "VARCHAR(20)",
+                "mapping": "sm_contract"
+            }
+        ]
+    }
+}

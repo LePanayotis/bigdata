@@ -1,0 +1,34 @@
+{
+    "tableName": "household_demographics",
+    "schemaName": "r",
+    "value": {
+        "dataFormat": "hash",
+        "fields": [
+            {
+                "name": "hd_demo_sk",
+                "type": "INTEGER",
+                "mapping": "hd_demo_sk"
+            },
+            {
+                "name": "hd_income_band_sk",
+                "type": "INTEGER",
+                "mapping": "hd_income_band_sk"
+            },
+            {
+                "name": "hd_dep_count",
+                "type": "INTEGER",
+                "mapping": "hd_dep_count"
+            },
+            {
+                "name": "hd_vehicle_count",
+                "type": "INTEGER",
+                "mapping": "hd_vehicle_count"
+            },
+            {
+                "name": "hd_buy_potential",
+                "type": "VARCHAR(15)",
+                "mapping": "hd_buy_potential"
+            }
+        ]
+    }
+}

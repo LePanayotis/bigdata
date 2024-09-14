@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16.3-alpine3.20
+    container_name: postgres
+    hostname: postgres
+    environment:
+      POSTGRES_USER: '<user>'
+      POSTGRES_PASSWORD: '<password>'
+      POSTGRES_DB: '<pg_db>'
+    ports:
+      - "127.0.0.1:5432:5432"
+    # - "ip:5432:5432"
+    volumes:
+      - /path/to/pg/data:/var/lib/postgresql/data

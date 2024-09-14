@@ -1,0 +1,14 @@
+services:
+    trino:
+        image: trinodb/trino:449
+        container_name: trino
+        hostname: trino-master
+        volumes:
+            - /path/to/keys/redis_keystore.pfx:/path/to/keystore.pfx
+            - /path/to/trino/catalog:/etc/trino/catalog
+            - /path/to//trino/config.properties:/etc/trino/config.properties
+            - /path/to/trino/password-authenticator.properties:/etc/password-authenticator.properties
+        ports:
+            - ip:8080:8080
+            - 127.0.0.1:8080:8080
+            - 8443:8443

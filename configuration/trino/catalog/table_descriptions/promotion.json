@@ -1,0 +1,104 @@
+{
+    "tableName": "promotion",
+    "schemaName": "r",
+    "value": {
+        "dataFormat": "hash",
+        "fields": [
+            {
+                "name": "p_promo_sk",
+                "type": "INTEGER",
+                "mapping": "p_promo_sk"
+            },
+            {
+                "name": "p_promo_id",
+                "type": "VARCHAR(16)",
+                "mapping": "p_promo_id"
+            },
+            {
+                "name": "p_start_date_sk",
+                "type": "INTEGER",
+                "mapping": "p_start_date_sk"
+            },
+            {
+                "name": "p_end_date_sk",
+                "type": "INTEGER",
+                "mapping": "p_end_date_sk"
+            },
+            {
+                "name": "p_item_sk",
+                "type": "INTEGER",
+                "mapping": "p_item_sk"
+            },
+            {
+                "name": "p_cost",
+                "type": "DOUBLE",
+                "mapping": "p_cost"
+            },
+            {
+                "name": "p_response_target",
+                "type": "INTEGER",
+                "mapping": "p_response_target"
+            },
+            {
+                "name": "p_promo_name",
+                "type": "VARCHAR(50)",
+                "mapping": "p_promo_name"
+            },
+            {
+                "name": "p_channel_dmail",
+                "type": "VARCHAR(1)",
+                "mapping": "p_channel_dmail"
+            },
+            {
+                "name": "p_channel_email",
+                "type": "VARCHAR(1)",
+                "mapping": "p_channel_email"
+            },
+            {
+                "name": "p_channel_catalog",
+                "type": "VARCHAR(1)",
+                "mapping": "p_channel_catalog"
+            },
+            {
+                "name": "p_channel_tv",
+                "type": "VARCHAR(1)",
+                "mapping": "p_channel_tv"
+            },
+            {
+                "name": "p_channel_radio",
+                "type": "VARCHAR(1)",
+                "mapping": "p_channel_radio"
+            },
+            {
+                "name": "p_channel_press",
+                "type": "VARCHAR(1)",
+                "mapping": "p_channel_press"
+            },
+            {
+                "name": "p_channel_event",
+                "type": "VARCHAR(1)",
+                "mapping": "p_channel_event"
+            },
+            {
+                "name": "p_channel_demo",
+                "type": "VARCHAR(1)",
+                "mapping": "p_channel_demo"
+            },
+            {
+                "name": "p_channel_details",
+                "type": "VARCHAR(100)",
+                "mapping": "p_channel_details"
+            },
+            {
+                "name": "p_purpose",
+                "type": "VARCHAR(15)",
+                "mapping": "p_purpose"
+            },
+            {
+                "name": "p_discount_active",
+                "type": "VARCHAR(1)",
+                "mapping": "p_discount_active"
+            }
+        ]
+    }
+}

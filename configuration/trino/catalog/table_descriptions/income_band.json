@@ -1,0 +1,24 @@
+{
+    "tableName": "income_band",
+    "schemaName": "r",
+    "value": {
+        "dataFormat": "hash",
+        "fields": [
+            {
+                "name": "ib_income_band_sk",
+                "type": "INTEGER",
+                "mapping": "cc_call_center_sk"
+            },
+            {
+                "name": "ib_lower_bound",
+                "type": "INTEGER",
+                "mapping": "cc_call_center_id"
+            },
+            {
+                "name": "ib_upper_bound",
+                "type": "INTEGER",
+                "mapping": "cc_rec_start_date"
+            }
+        ]
+    }
+}
